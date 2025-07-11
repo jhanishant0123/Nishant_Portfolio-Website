@@ -1,0 +1,20 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background: linear-gradient(135deg, #001f4d, #fcb8d2, #7b0000, #fff700, #a3ffb0);
+  background-size: 400% 400%;
+  animation: gradientFlow 20s ease infinite;
+}
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+canvas#3d-profile {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 20px;
+  cursor: grab;
+}
